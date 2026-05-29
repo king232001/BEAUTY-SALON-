@@ -1,0 +1,6 @@
+Lien officiel du site BEAUTY (a copier exactement) :
+
+https://king232001.github.io/BEAUTY-SALON-/
+
+Important : il y a un tiret "-" a la fin de SALON (BEAUTY-SALON-)
+Sans ce tiret, le telephone affiche une erreur 404.

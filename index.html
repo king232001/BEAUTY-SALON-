@@ -4,19 +4,29 @@
     <meta charset="UTF-8" />
     <script>
       (function () {
-        var base = document.createElement("base");
         var path = window.location.pathname.replace(/\\/g, "/");
-        var parts = path.split("/").filter(Boolean);
+        var host = window.location.hostname;
 
+        if (host.endsWith("github.io")) {
+          var correctPath = "/BEAUTY-SALON-/";
+          if (path === "/BEAUTY-SALON" || path === "/BEAUTY-SALON/") {
+            window.location.replace(correctPath + window.location.search + window.location.hash);
+            return;
+          }
+          if (!path.startsWith("/BEAUTY-SALON-")) {
+            window.location.replace(correctPath + window.location.search + window.location.hash);
+            return;
+          }
+        }
+
+        var base = document.createElement("base");
         if (window.location.protocol === "file:") {
           base.href = path.substring(0, path.lastIndexOf("/") + 1) || "./";
-        } else if (window.location.hostname.endsWith("github.io")) {
-          base.href =
-            parts[0] && !parts[0].includes(".") ? "/" + parts[0] + "/" : "/";
+        } else if (host.endsWith("github.io")) {
+          base.href = "/BEAUTY-SALON-/";
         } else {
           base.href = "/";
         }
-
         document.head.insertBefore(base, document.head.firstChild);
       })();
     </script>
