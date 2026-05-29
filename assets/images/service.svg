@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#222" />
+      <stop offset="100%" stop-color="#8f6a42" />
+    </linearGradient>
+  </defs>
+  <rect width="900" height="700" fill="url(#g)" />
+  <rect x="60" y="70" width="260" height="150" fill="#fff" opacity="0.12" />
+  <rect x="580" y="460" width="260" height="150" fill="#fff" opacity="0.1" />
+  <text x="72" y="360" fill="#f5e6d5" font-size="62" font-family="Arial">SERVICE BEAUTY</text>
+  <text x="72" y="420" fill="#f0d9bf" font-size="30" font-family="Arial">Coiffure - Maquillage - Soin</text>
+</svg>

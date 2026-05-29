@@ -1,0 +1,10 @@
+# Outils / IDE
+.cursor/
+mcps/
+agent-transcripts/
+terminals/
+
+# Systeme
+.DS_Store
+Thumbs.db
+desktop.ini
