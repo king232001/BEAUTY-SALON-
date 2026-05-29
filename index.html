@@ -2,6 +2,24 @@
 <html lang="fr">
   <head>
     <meta charset="UTF-8" />
+    <script>
+      (function () {
+        var base = document.createElement("base");
+        var path = window.location.pathname.replace(/\\/g, "/");
+        var parts = path.split("/").filter(Boolean);
+
+        if (window.location.protocol === "file:") {
+          base.href = path.substring(0, path.lastIndexOf("/") + 1) || "./";
+        } else if (window.location.hostname.endsWith("github.io")) {
+          base.href =
+            parts[0] && !parts[0].includes(".") ? "/" + parts[0] + "/" : "/";
+        } else {
+          base.href = "/";
+        }
+
+        document.head.insertBefore(base, document.head.firstChild);
+      })();
+    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <title>BEAUTY - Salon de Coiffure</title>
     <meta
