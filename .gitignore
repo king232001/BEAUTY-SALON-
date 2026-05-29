@@ -3,6 +3,7 @@
 mcps/
 agent-transcripts/
 terminals/
+assets/c__Users_*
 
 # Systeme
 .DS_Store
