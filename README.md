@@ -10,6 +10,12 @@ Utilise **exactement** cette adresse (avec le tiret `-` à la fin du nom) :
 
 Sans le tiret final (`BEAUTY-SALON`), GitHub affiche une erreur 404.
 
+## Partager sur WhatsApp (lien seul, sans texte)
+
+1. Copie le lien **depuis la barre d’adresse** du navigateur (pas depuis l’aperçu dans le chat).
+2. Sur GitHub : **Settings** du dépôt → vide le champ **Description** (About) si un texte y est écrit.
+3. Si WhatsApp affiche encore un ancien message : ouvre une **nouvelle discussion** et colle le lien, ou attends quelques heures (cache WhatsApp).
+
 ## Contenu du projet
 
 - `index.html` — page principale
