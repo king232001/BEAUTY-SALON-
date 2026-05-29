@@ -1,0 +1,28 @@
+Le texte "Nous vous remercions de votre confiance..." n'est PAS sur le site.
+Il est enregistre dans WhatsApp Business : Reponse rapide "BONJOUR".
+
+=== SUPPRIMER (telephone Android) ===
+1. Ouvrir WhatsApp Business
+2. Trois points en haut a droite → Parametres
+3. Outils professionnels → Reponses rapides
+4. Appuyer sur "BONJOUR"
+5. Corbeille ou Supprimer → confirmer
+
+=== SUPPRIMER (PC / WhatsApp Bureau) ===
+1. Ouvrir WhatsApp sur le PC
+2. Engrenage Parametres (en bas a gauche)
+3. Outils professionnels → Reponses rapides
+4. Cliquer "BONJOUR" → Supprimer
+
+=== AUSSI VERIFIER ===
+Parametres → Outils professionnels → Message d'accueil → DESACTIVER
+Parametres → Outils professionnels → Message d'absence → DESACTIVER
+
+=== COPIER LE LIEN SANS TEXTE ===
+1. Ouvrir ce fichier LIEN-SEUL.txt
+2. Copier la seule ligne (Ctrl+C)
+3. Coller dans WhatsApp
+4. Si le menu "Reponses rapides" s'affiche : NE PAS cliquer sur BONJOUR
+5. Envoyer tout de suite
+
+Lien : https://king232001.github.io/BEAUTY-SALON-/
